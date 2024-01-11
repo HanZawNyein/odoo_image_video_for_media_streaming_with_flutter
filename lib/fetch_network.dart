@@ -8,7 +8,7 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  final String apiUrl = "https://odoo.ycfitness.xyz/v2/api/login"; // Replace with your actual API base URL
+  final String apiUrl = "https://yourdomain.com/v2/api/login"; // Replace with your actual API base URL
 
   TextEditingController phoneController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
